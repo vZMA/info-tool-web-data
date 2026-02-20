@@ -1,0 +1,3 @@
+;Local FAA airports that don't appear in the vatspy project
+;Format:  ICAO|Airport Name|Latitude Decimal|Longitude Decimal|IATA/LID|FIR|IsPseudo
+;https://github.com/vatsimnetwork/vatspy-data-project/blob/6c06d9481ec79611ddfbd3575250640c5498dff8/VATSpy.dat#L329

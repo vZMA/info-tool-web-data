@@ -1,0 +1,545 @@
+﻿[
+  {
+    "id": "MIA - MIA",
+    "scratchpads": [
+      {
+        "entry": "VL",
+        "description": "Visual approach 8L/26L"
+      },
+      {
+        "entry": "VR",
+        "description": "Visual approach 8R/26R"
+      },
+      {
+        "entry": "V",
+        "description": "Visual approach 12/30"
+      },
+      {
+        "entry": "V9",
+        "description": "Visual approach 9"
+      },
+      {
+        "entry": "V27",
+        "description": "Visual approach 27"
+      },
+      {
+        "entry": "L",
+        "description": "VFR/IFR approach 8L/26L"
+      },
+      {
+        "entry": "R",
+        "description": "VFR/IFR approach 8R/26R"
+      },
+      {
+        "entry": "R9",
+        "description": "VFR/IFR approach 9"
+      },
+      {
+        "entry": "R12",
+        "description": "VFR/IFR approach 12"
+      },
+      {
+        "entry": "R27",
+        "description": "VFR/IFR approach 27"
+      },
+      {
+        "entry": "R30",
+        "description": "VFR/IFR approach 30"
+      },
+      {
+        "entry": "9N",
+        "description": "VFR/IFR approach 9 unable LAHSO"
+      },
+      {
+        "entry": "V9N",
+        "description": "Visual approach 9 unable LAHSO"
+      },
+      {
+        "entry": "12N",
+        "description": "VFR/IFR approach 12 unable LAHSO"
+      },
+      {
+        "entry": "VN",
+        "description": "Visual approach 12 unable LAHSO"
+      },
+      {
+        "entry": "AL",
+        "description": "Visual approach 8L/26L following/maintaining visual separation from preceding arrival"
+      },
+      {
+        "entry": "AR",
+        "description": "Visual approach 8R/26R following/maintaining visual separation from preceding arrival"
+      },
+      {
+        "entry": "AV",
+        "description": "Visual approach 12 following/maintaining visual separation from preceding arrival"
+      },
+      {
+        "entry": "A9",
+        "description": "Visual approach 9 following/maintaining visual separation from preceding arrival"
+      },
+      {
+        "entry": "A27",
+        "description": "Visual approach 27 following/maintaining visual separation from preceding arrival"
+      },
+      {
+        "entry": "AN",
+        "description": "Visual approach 12 unable LAHSO and following/maintaining visual separation from preceding arrival"
+      },
+      {
+        "entry": "A9N",
+        "description": "Visual approach 9 unable LAHSO and following/maintaining visual separation from preceding arrival"
+      }
+    ]
+  },
+  {
+    "id": "MIA - FLL",
+    "scratchpads": [
+      {
+        "entry": "FVL",
+        "description": "Visual approach 10L/28L"
+      },
+      {
+        "entry": "FVR",
+        "description": "Visual approach 10R/28R"
+      },
+      {
+        "entry": "FL",
+        "description": "VFR/IFR approach 10L/28L"
+      },
+      {
+        "entry": "FR",
+        "description": "VFR/IFR approach 10R/28R"
+      },
+      {
+        "entry": "FAL",
+        "description": "Visual approach 10L/28L following/maintaining visual separation from preceding arrival"
+      },
+      {
+        "entry": "FAR",
+        "description": "Visual approach 10R/28R following/maintaining visual separation from preceding arrival"
+      }
+    ]
+  },
+  {
+    "id": "MIA - SATS",
+    "scratchpads": [
+      {
+        "entry": "PMP",
+        "description": "PMP IFR instrument approach"
+      },
+      {
+        "entry": "PMV",
+        "description": "PMP visual approach"
+      },
+      {
+        "entry": "PMI",
+        "description": "PMP IFR practice approach"
+      },
+      {
+        "entry": "PPP",
+        "description": "PMP VFR practice approach"
+      },
+      {
+        "entry": "PMH",
+        "description": "PMP holding"
+      },
+      {
+        "entry": "+C##",
+        "description": "PMP circling runway options - R6/10/15/24/28/33"
+      },
+      {
+        "entry": "FXE",
+        "description": "FXE IFR instrument approach"
+      },
+      {
+        "entry": "FXV",
+        "description": "FXE visual approach"
+      },
+      {
+        "entry": "FXI",
+        "description": "FXE IFR practice approach"
+      },
+      {
+        "entry": "FXP",
+        "description": "FXE VFR practice approach"
+      },
+      {
+        "entry": "FXH",
+        "description": "FXE holding"
+      },
+      {
+        "entry": "+C##",
+        "description": "FXE circling runway options - R9/13/27/31"
+      },
+      {
+        "entry": "HWO",
+        "description": "HWO IFR instrument approach"
+      },
+      {
+        "entry": "HWV",
+        "description": "HWO visual approach"
+      },
+      {
+        "entry": "HWI",
+        "description": "HWO IFR practice approach"
+      },
+      {
+        "entry": "HWP",
+        "description": "HWO VFR practice approach"
+      },
+      {
+        "entry": "HWH",
+        "description": "HWO holding"
+      },
+      {
+        "entry": "+C##",
+        "description": "HWO circling runway options - 9L/9R/0L/0R/8L/8R/1L/1R"
+      },
+      {
+        "entry": "OPF",
+        "description": "OPF IFR instrument approach"
+      },
+      {
+        "entry": "OPV",
+        "description": "OPF visual approach"
+      },
+      {
+        "entry": "OPI",
+        "description": "OPF IFR practice approach"
+      },
+      {
+        "entry": "OPP",
+        "description": "OPF VFR practice approach"
+      },
+      {
+        "entry": "OPH",
+        "description": "OPF holding"
+      },
+      {
+        "entry": "+C##",
+        "description": "OPF circling runway options - 9R/9L/12/7L/7R/30"
+      },
+      {
+        "entry": "TMB",
+        "description": "TMB 9R/27L IFR instrument approach"
+      },
+      {
+        "entry": "TMV",
+        "description": "TMB 9R/27L visual approach"
+      },
+      {
+        "entry": "TMI",
+        "description": "TMB 9R/27L IFR practice approach"
+      },
+      {
+        "entry": "TMP",
+        "description": "TMB 9R/27L VFR practice approach"
+      },
+      {
+        "entry": "TB",
+        "description": "TMB 9L/27R IFR instrument approach"
+      },
+      {
+        "entry": "TV",
+        "description": "TMB 9L/27R visual approach"
+      },
+      {
+        "entry": "TI",
+        "description": "TMB 9L/27R IFR practice approach"
+      },
+      {
+        "entry": "TP",
+        "description": "TMB 9L/27R VFR practice approach"
+      },
+      {
+        "entry": "TMH",
+        "description": "TMB holding"
+      },
+      {
+        "entry": "+C##",
+        "description": "TMB circling runway options - 9R/9L/13/7L/7R/31"
+      },
+      {
+        "entry": "+###",
+        "description": "Runway other than primary runway"
+      },
+      {
+        "entry": "+VS",
+        "description": "Pilot applied visual separation"
+      }
+    ]
+  },
+  {
+    "id": "TPA - TPA",
+    "scratchpads": [
+      {
+        "entry": "IL",
+        "description": "ILS 19L/1L"
+      },
+      {
+        "entry": "IR",
+        "description": "ILS 19R"
+      },
+      {
+        "entry": "GL",
+        "description": "RNAV/GPS 19L/1L"
+      },
+      {
+        "entry": "GR",
+        "description": "RNAV/GPS 19R/1R"
+      },
+      {
+        "entry": "GF1",
+        "description": "RNAV/GPS 10"
+      },
+      {
+        "entry": "GF2",
+        "description": "RNAV/GPS 28"
+      },
+      {
+        "entry": "LL",
+        "description": "LOC 19L/1L"
+      },
+      {
+        "entry": "LR",
+        "description": "LOC 19R/1R"
+      },
+      {
+        "entry": "VL",
+        "description": "Visual 19L/1L visually following traffic"
+      },
+      {
+        "entry": "VR",
+        "description": "Visual 19R/1R visually following traffic"
+      },
+      {
+        "entry": "VLA",
+        "description": "Visual 19L/1L NOT visually following traffic"
+      },
+      {
+        "entry": "VRA",
+        "description": "Visual 19R/1R NOT visually following traffic"
+      },
+      {
+        "entry": "V10",
+        "description": "Visual 10"
+      },
+      {
+        "entry": "V28",
+        "description": "Visual 28"
+      },
+      {
+        "entry": "19L",
+        "description": "VFR 19L"
+      },
+      {
+        "entry": "19R",
+        "description": "VFR 19R"
+      },
+      {
+        "entry": "1L",
+        "description": "VFR 1L"
+      },
+      {
+        "entry": "1R",
+        "description": "VFR 1R"
+      },
+      {
+        "entry": "10",
+        "description": "VFR 10"
+      },
+      {
+        "entry": "28",
+        "description": "VFR 28"
+      }
+    ]
+  },
+  {
+    "id": "PBI - PBI",
+    "scratchpads": [
+      {
+        "entry": "PBI",
+        "description": "Runway 10L/28R RNAV STAR/full stop landing on advertised approach in use"
+      },
+      {
+        "entry": "RYN",
+        "description": "IFR/VFR approach 10L/28R"
+      },
+      {
+        "entry": "RYS",
+        "description": "IFR/VFR approach 10R/28L"
+      },
+      {
+        "entry": "RYX",
+        "description": "IFR/VFR approach 14/32"
+      },
+      {
+        "entry": "VAN",
+        "description": "Visual approach 10L/28R"
+      },
+      {
+        "entry": "VAS",
+        "description": "Visual approach 10R/28L"
+      },
+      {
+        "entry": "VAX",
+        "description": "Visual approach 14/32"
+      },
+      {
+        "entry": "+VS",
+        "description": "Pilot applied visual separation"
+      },
+      {
+        "entry": "RNN",
+        "description": "RNAV Y 10L/28R"
+      },
+      {
+        "entry": "RNX",
+        "description": "RNAVV Y 14/32"
+      },
+      {
+        "entry": "RPN",
+        "description": "RNAV Z 10L/28R"
+      },
+      {
+        "entry": "RPX",
+        "description": "RNAV Z 14/32"
+      },
+      {
+        "entry": "+ILS/LOC",
+        "description": "Runway 10L/28R ILS/LOC"
+      },
+      {
+        "entry": "PIN",
+        "description": "Practice ILS approach 10L/28R not full stop"
+      },
+      {
+        "entry": "PRN",
+        "description": "Practice RNAV approach 10L/28R not full stop"
+      },
+      {
+        "entry": "PRX",
+        "description": "Practice RNAV approach 14/32 not full stop"
+      },
+      {
+        "entry": "+LHS",
+        "description": "LAHSO"
+      }
+    ]
+  },
+  {
+    "id": "RSW - RSW",
+    "scratchpads": [
+      {
+        "entry": "I",
+        "description": "DIGIT 1 - ILS"
+      },
+      {
+        "entry": "VA#",
+        "description": "DIGIT 1 - Visual (no DIGIT 3)"
+      },
+      {
+        "entry": "R",
+        "description": "DIGIT 1 - RNAV GPS"
+      },
+      {
+        "entry": "P",
+        "description": "DIGIT 1 - RNAV RNP"
+      },
+      {
+        "entry": "L",
+        "description": "DIGIT 1 - Localizer"
+      },
+      {
+        "entry": "V",
+        "description": "DIGIT 1 - VOR/TACAN"
+      },
+      {
+        "entry": "#",
+        "description": "DIGIT 2 - last digit of runway number"
+      },
+      {
+        "entry": "O",
+        "description": "DIGIT 3 - full stop"
+      },
+      {
+        "entry": "N",
+        "description": "DIGIT 3 - standard missed approach"
+      },
+      {
+        "entry": "P",
+        "description": "DIGIT 3 - published missed approach"
+      },
+      {
+        "entry": "Z",
+        "description": "DIGIT 3 - non-standard (coordination required)"
+      },
+      {
+        "entry": "L",
+        "description": "DIGIT 3 - remaining in local traffic pattern"
+      }
+    ]
+  },
+  {
+    "id": "NQX",
+    "scratchpads": [
+      {
+        "entry": "VA",
+        "description": "Visual approach"
+      },
+      {
+        "entry": "GPS",
+        "description": "RNAV/GPS approach"
+      },
+      {
+        "entry": "OH",
+        "description": "Overhead maneuver"
+      },
+      {
+        "entry": "Q1",
+        "description": "QUEEN ONE overhead"
+      },
+      {
+        "entry": "SI",
+        "description": "Straight-in approach"
+      },
+      {
+        "entry": "TA",
+        "description": "TACAN approach"
+      },
+      {
+        "entry": "HTA",
+        "description": "High TACAN approach"
+      },
+      {
+        "entry": "CTA",
+        "description": "Copter TACAN approach"
+      },
+      {
+        "entry": "VOR",
+        "description": "VOR approach"
+      },
+      {
+        "entry": "SA",
+        "description": "Surveillance approach"
+      },
+      {
+        "entry": "PA",
+        "description": "Precision approach"
+      },
+      {
+        "entry": "TAZ",
+        "description": "TACAN Z approach"
+      },
+      {
+        "entry": "TAY",
+        "description": "TACAN Y approach"
+      },
+      {
+        "entry": "+##",
+        "description": "Runway other than primary runway"
+      }
+    ]
+  }
+]
