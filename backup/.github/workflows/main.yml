@@ -1,0 +1,62 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  build-docker-image:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Compute image name (lowercase owner)
+        id: meta
+        run: |
+          echo "OWNER_LC=$(echo '${{ github.repository_owner }}' | tr '[:upper:]' '[:lower:]')" >> $GITHUB_OUTPUT
+          echo "IMAGE=ghcr.io/$(echo '${{ github.repository_owner }}' | tr '[:upper:]' '[:lower:]')/info-tool-web" >> $GITHUB_OUTPUT
+
+      - name: Build and push
+        uses: docker/build-push-action@v5
+        with:
+          push: true
+          tags: |
+            ${{ steps.meta.outputs.IMAGE }}:${{ github.sha }}
+            ${{ steps.meta.outputs.IMAGE }}:master
+            ${{ steps.meta.outputs.IMAGE }}:latest
+
+  deploy-docker-image:
+    needs: build-docker-image
+    runs-on: ubuntu-latest
+    steps:
+      - name: Initialize doctl
+        uses: digitalocean/action-doctl@v2
+        with:
+          token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
+
+      - name: Log into K8s cluster
+        run: doctl kubernetes cluster kubeconfig save --expiry-seconds 600 k8s-zma-website
+
+      - name: Compute image name (lowercase owner)
+        id: meta
+        run: |
+          echo "IMAGE=ghcr.io/$(echo '${{ github.repository_owner }}' | tr '[:upper:]' '[:lower:]')/info-tool-web" >> $GITHUB_OUTPUT
+
+      - name: Deploy image to cluster
+        run: kubectl set image deployment/info-tool-web info-tool-web=${{ steps.meta.outputs.IMAGE }}:${{ github.sha }} --record -n zma-web-stack
+
+      - name: Verify deployment
+        run: kubectl rollout status deployment/info-tool-web -n zma-web-stack
