@@ -1,0 +1,6 @@
+;Local FAA airports that don't appear in the vatspy project
+;Format:  ICAO|Airport Name|Latitude Decimal|Longitude Decimal|IATA/LID|FIR|IsPseudo
+;https://github.com/vatsimnetwork/vatspy-data-project/blob/6c06d9481ec79611ddfbd3575250640c5498dff8/VATSpy.dat#L329
+
+KPBI|Palm Beach International Airport FL|26.6831617|-80.0955919|PBI|KZMA|0
+KDJT|Palm Beach International Airport FL|26.6831617|-80.0955919|DJT|KZMA|0
